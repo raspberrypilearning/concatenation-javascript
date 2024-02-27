@@ -1,59 +1,40 @@
-## Introduction
+You can combine text(string) and variables in JavaScript to create user friendly messages.
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+A "string" is a data type in JavaScript and other programming languages. Data types are groups of data tell the program how we want to use data.
 
-### What you will make
+You can format strings using template literals or concatenation. 
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
+Here are examples of how they work:
++ Use backticks (` `) to embed variables within ${} inside the string. This is called a template literal.
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
-
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
-
---- collapse ---
+--- code ---
 ---
-title: What you will need
+language: js
+filename: script.js
+line_numbers: true
 ---
-### Hardware
+    
+   const name = "Spider-Man";
+   const age = 25;
+   // Example using template literals
+   const message = `Hello, ${name}! You are ${age} years old.`;
+   console.log(message);
+    
+--- /code ---
 
-+ A computer or tablet capable of running Scratch 3
++ Concatenation: you can combine strings together using the + operator.
 
-### Software
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](https://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
+--- code ---
 ---
-title: What you will learn
+language: js
+filename: script.js
+line_numbers: true
 ---
-
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
-
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](https://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
+    
+   const superhero = "Iron Man";
+   const power = "suit of armor";
+   // Example using concatenation
+   const description = "The superhero " + superhero + " possesses a " + power + ".";
+   console.log(description);
+    
+--- /code ---
