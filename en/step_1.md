@@ -5,7 +5,7 @@ A "string" is a data type in JavaScript and other programming languages. Data ty
 You can format strings using template literals or concatenation. 
 
 Here are examples of how they work:
-+ Use backticks (` `) to embed variables within ${} inside the string. This is called a template literal.
++ Use backticks ` to embed variables within ${} inside the string. This is called a template literal.
 
 --- code ---
 ---
