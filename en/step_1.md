@@ -1,11 +1,11 @@
-You can combine text(string) and variables in JavaScript to create user friendly messages.
+You can combine text (string) and variables in JavaScript to create user friendly messages.
 
 A "string" is a data type in JavaScript and other programming languages. Data types are groups of data tell the program how we want to use data.
 
 You can format strings using template literals or concatenation. 
 
 Here are examples of how they work:
-+ Use backticks ` to embed variables within ${} inside the string. This is called a template literal.
++ Use backticks ``` ` ``` to embed variables within `${}` inside the string. This is called a template literal.
 
 --- code ---
 ---
@@ -22,7 +22,7 @@ line_numbers: true
     
 --- /code ---
 
-+ Concatenation: you can combine strings together using the + operator.
++ Concatenation: you can combine strings together using the `+` operator.
 
 --- code ---
 ---
