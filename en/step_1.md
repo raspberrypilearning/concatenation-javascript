@@ -1,6 +1,6 @@
 You can combine text (strings) and variables in JavaScript.
 
-A "string" is a data type in JavaScript and other programming languages. Data types are groups of data tell the program how we want to use data.
+A "string" is a data type in JavaScript and other programming languages. Data types are groups of data that tell the program how we want to use data.
 
 You can format strings using concatenation or template literals.
 
