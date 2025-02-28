@@ -1,12 +1,12 @@
-You can combine text (strings) and variables in JavaScript.
+Je kunt tekst (strings) en variabelen combineren in JavaScript.
 
-A "string" is a data type in JavaScript and other programming languages. Data types are groups of data tell the program how we want to use data.
+Een "string" (tekenreeks) is een gegevenstype in JavaScript en andere programmeertalen. Datatypes zijn groepen van gegevens die het programma vertellen hoe we gegevens willen gebruiken.
 
-You can format strings using concatenation or template literals.
+Je kunt strings opmaken door middel van samenvoeging of sjabloonliteralen.
 
-### Concatenation
+### Samenvoeging
 
-You can combine strings together using the `+` operator.
+Je kunt strings samenvoegen met behulp van de operator `+`.
 
 ## --- code ---
 
@@ -16,18 +16,18 @@ line_numbers: true
 -------------------------------------------------------
 
 const superhero = "Iron Man";
-const power = "suit of armor";
-// Example using concatenation
-const description = "The superhero " + superhero + " possesses a " + power + ".";
+const power = "harnas";
+// Voorbeeld dat samenvoeging gebruikt
+const description = "De superheld " + superhero + " heeft als superkracht een " + power + ".";
 console.log(description);
 
 \--- /code ---
 
-### Template literals
+### Sjabloonliteralen
 
-You can use include the contents of variables in a string by using backticks `` ` `` to embed variables within these symbols: `${}`.
+Je kunt de inhoud van variabelen in een string opnemen door backticks `` ` `` te gebruiken om variabelen in deze symbolen in te sluiten: `${}`.
 
-Here is an example.
+Hier is een voorbeeld.
 
 ## --- code ---
 
@@ -38,8 +38,8 @@ line_numbers: true
 
 const name = "Spider-Man";
 const age = 25;
-// Example using template literals
-const message = `Hello, ${name}! You are ${age} years old.`;
-console.log(message);
+// Voorbeeld dat sjabloonliteralen gebruikt
+const message = `Hallo, ${name}! Je bent ${age} jaar oud.`;
+console.log(bericht);
 
 \--- /code ---
