@@ -1,12 +1,12 @@
-You can combine text (strings) and variables in JavaScript.
+Tu peux combiner du texte (chaînes de caractères) et des variables en JavaScript.
 
-A "string" is a data type in JavaScript and other programming languages. Data types are groups of data tell the program how we want to use data.
+Une « chaîne de caractères » est un type de données en JavaScript et dans d'autres langages de programmation. Les types de données sont des groupes de données qui indiquent au programme comment nous souhaitons utiliser les données.
 
-You can format strings using concatenation or template literals.
+Tu peux formater des chaînes de caractères à l'aide de concaténations ou de modèles littéraux.
 
-### Concatenation
+### Concaténation
 
-You can combine strings together using the `+` operator.
+Tu peux combiner des chaînes de caractères en utilisant l'opérateur `+`.
 
 ## --- code ---
 
@@ -16,18 +16,18 @@ line_numbers: true
 -------------------------------------------------------
 
 const superhero = "Iron Man";
-const power = "suit of armor";
-// Example using concatenation
-const description = "The superhero " + superhero + " possesses a " + power + ".";
+const power = "armure";
+// Exemple utilisant la concaténation
+const description = "Le super-héros " + superhero + " possède une " + power + ".";
 console.log(description);
 
 \--- /code ---
 
-### Template literals
+### Modèles littéraux
 
-You can use include the contents of variables in a string by using backticks `` ` `` to embed variables within these symbols: `${}`.
+Tu peux inclure le contenu des variables dans une chaîne de caractères en utilisant des guillemets obliques `` ` `` pour incorporer des variables à l'intérieur de ces symboles : `${}`.
 
-Here is an example.
+Voici un exemple.
 
 ## --- code ---
 
@@ -38,8 +38,8 @@ line_numbers: true
 
 const name = "Spider-Man";
 const age = 25;
-// Example using template literals
-const message = `Hello, ${name}! You are ${age} years old.`;
+// Exemple d'utilisation de modèle littéral
+message const = `Bonjour ${name} ! Tu as ${age} ans.`;
 console.log(message);
 
 \--- /code ---
