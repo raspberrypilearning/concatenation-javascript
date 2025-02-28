@@ -1,6 +1,6 @@
 Tu peux combiner du texte (chaînes de caractères) et des variables en JavaScript.
 
-Une « chaîne de caractères » est un type de données en JavaScript et dans d'autres langages de programmation. Les types de données sont des groupes de données qui indiquent au programme comment nous souhaitons utiliser les données.
+Une « chaîne de caractères » est un type de données en JavaScript et dans d'autres langages de programmation. Data types are groups of data that tell the program how we want to use data.
 
 Tu peux formater des chaînes de caractères à l'aide de concaténations ou de modèles littéraux.
 
