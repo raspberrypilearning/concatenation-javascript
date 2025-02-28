@@ -1,6 +1,6 @@
 Je kunt tekst (strings) en variabelen combineren in JavaScript.
 
-Een "string" (tekenreeks) is een gegevenstype in JavaScript en andere programmeertalen. Datatypes zijn groepen van gegevens die het programma vertellen hoe we gegevens willen gebruiken.
+Een "string" (tekenreeks) is een gegevenstype in JavaScript en andere programmeertalen. Data types are groups of data that tell the program how we want to use data.
 
 Je kunt strings opmaken door middel van samenvoeging of sjabloonliteralen.
 
