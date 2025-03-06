@@ -1,6 +1,6 @@
 Je kunt tekst (strings) en variabelen combineren in JavaScript.
 
-Een "string" (tekenreeks) is een gegevenstype in JavaScript en andere programmeertalen. Datatypes zijn groepen van gegevens die het programma vertellen hoe we gegevens willen gebruiken.
+Een "string" (tekenreeks) is een datatype in JavaScript en andere programmeertalen. Datatypes zijn groepen van gegevens die het programma vertellen hoe we gegevens willen gebruiken.
 
 Je kunt strings opmaken door middel van samenvoeging of sjabloonliteralen.
 
@@ -15,11 +15,11 @@ filename:
 line_numbers: true
 -------------------------------------------------------
 
-const superhero = "Iron Man";
-const power = "harnas";
+const superheld = "Iron Man";
+const kracht = "harnas";
 // Voorbeeld dat samenvoeging gebruikt
-const description = "De superheld " + superhero + " heeft als superkracht een " + power + ".";
-console.log(description);
+const beschrijving = "De superheld " + superheld + " heeft als superkracht een " + kracht + ".";
+console.log(beschrijving);
 
 \--- /code ---
 
@@ -36,10 +36,10 @@ filename:
 line_numbers: true
 -------------------------------------------------------
 
-const name = "Spider-Man";
-const age = 25;
+const naam = "Spider-Man";
+const leeftijd = 25;
 // Voorbeeld dat sjabloonliteralen gebruikt
-const message = `Hallo, ${name}! Je bent ${age} jaar oud.`;
+const bericht = `Hallo, ${naam}! Je bent ${leeftijd} jaar oud.`;
 console.log(bericht);
 
 \--- /code ---
